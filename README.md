@@ -1,6 +1,6 @@
-## Books app.
+# Books app.
 
-# React, Redux thunk, Bootstrap, Scss, Rest API (google api)
+## React, Redux thunk, Bootstrap, Scss, Rest API (google api)
 
 ![Screenshot_50](https://user-images.githubusercontent.com/43748738/227730251-1edd6ba8-4062-4dfa-88ec-dc2dd00d0dd3.jpg)
 
