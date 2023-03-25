@@ -1,0 +1,42 @@
+.scroll__to-top {
+	opacity: 0;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 100px;
+	right: 50px;
+	z-index: 500;
+	transition: all 0.5s ease-in-out;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background: #555;
+	font-size: 28px;
+	pointer-events: none;
+	// text-decoration: none;
+}
+
+.scroll__to-top span {
+	color: #fff;
+}
+
+.show__scroll-top {
+	opacity: 0.5;
+	pointer-events: all;
+}
+
+.scroll__to-top:hover {
+	background-color: rgb(56, 55, 55);
+}
+
+.scroll__to-top:active {
+	background-color: rgb(56, 55, 55);
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.scroll__to-top {
+		display: none;
+	}
+}

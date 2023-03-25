@@ -1,0 +1,11 @@
+.books__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 0));
+    gap: 30px;
+    justify-content: center;
+    grid-auto-flow: dense;
+    margin: 0;
+    padding: 0;
+    columns: auto;
+    margin-bottom: 30px;
+}

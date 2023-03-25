@@ -1,0 +1,1 @@
+export const selectID = (state) => state.idReducer

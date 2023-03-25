@@ -1,0 +1,24 @@
+.mainPage {
+    padding: 30px 0;
+    .books__content {
+        text-align: center;
+
+        .books__search {
+            display: flex;
+            flex-flow: row;
+            align-items: flex-end;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-bottom: 30px;
+
+            .categories__lable {
+                width: calc(35% - 20px);
+            }
+
+            .books__input {
+                width: calc(45% - 10px);
+            }
+        }
+    }
+}

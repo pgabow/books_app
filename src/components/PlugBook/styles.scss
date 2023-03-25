@@ -1,0 +1,36 @@
+@mixin font_z($w, $s, $h, $color) {
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+    color: $color;
+}
+
+$background__color: #333D51;
+$white_color: #F1F1F1;
+
+.book__plug {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: $background__color;
+
+    .book__author {
+        padding-top: 100px; 
+        @include font_z(600, 25px, 30px, $white_color);
+    }
+
+    .book__title {
+        @include font_z(500, 18px, 30px, $white_color)
+    }
+
+    .book__page {
+        @include font_z(400, 16px, 30px, $white_color)
+    }
+
+    .book__sale {
+        @include font_z(400, 16px, 30px, $white_color)
+    }
+}
